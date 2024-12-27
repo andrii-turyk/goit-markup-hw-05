@@ -210,23 +210,23 @@ footer .link-icon-team:focus {
     max-width: 264px;
 }
 
-.form-footer {
+.footer-form {
     display: flex;
     gap: 24px;
+    align-items: center;
     margin-left: 80px;
-    width: 453px;
-    height: 80px;
 }
 
-.label-footer {
-    display: flex;
-    flex-direction: column;
+.text-form-footer {
+    margin-bottom: 16px;
+    margin-left: 80px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
 }
+
 
 .input-footer {
     color: #fff;
@@ -235,7 +235,6 @@ footer .link-icon-team:focus {
     border-radius: 4px;
     width: 264px;
     height: 40px;
-    margin-top: 16px;
     padding-left: 16px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     
@@ -255,7 +254,6 @@ footer .link-icon-team:focus {
     justify-content: center;
     flex-direction: row;
     gap: 16px;
-    margin-top: 40px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
