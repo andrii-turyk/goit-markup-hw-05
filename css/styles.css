@@ -598,7 +598,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 999;
+    z-index: 9999;
     background-color: rgba(46, 47, 66, 0.4);
     opacity: 0;
     pointer-events: none;
@@ -606,10 +606,10 @@ img {
     
 }
 
-.modal-overlay.is-open {
+/*.modal-overlay.is-open {
     opacity: 1;
     pointer-events: auto;
-}
+}*/
 
 .form {
     border-radius: 4px;
